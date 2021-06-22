@@ -13,9 +13,9 @@ const item = [
   { src: "./img/curso2.jpg", alt: "foto", class_price: 239.45, value: "gitara", name: "Ebook", id: 4},
   { src: "./img/curso3.jpg", alt: "foto", class_price: 165.39, value: "gitara", name: "Kaktus", id: 5},
   { src: "./img/curso1.jpg", alt: "foto", class_price: 213.78, value: "gitara", name: "Instrument", id: 6},
-  { src: "./img/curso3.jpg", alt: "foto", class_price: 237.45, value: "gitara", name: "Książka", id:7},
-  { src: "./img/curso1.jpg", alt: "foto", class_price: 125.09, value: "gitara", name: "Kwiaty", id: 8},
-  { src: "./img/curso2.jpg", alt: "foto", class_price: 275.08, value: "gitara", name: "Gitara", id: 9},
+  { src: "./img/curso3.jpg", alt: "foto", class_price: 237.45, value: "gitara", name: "AudioEbook", id:7},
+  { src: "./img/curso1.jpg", alt: "foto", class_price: 125.09, value: "gitara", name: "Roślinka", id: 8},
+  { src: "./img/curso2.jpg", alt: "foto", class_price: 275.08, value: "gitara", name: "Mandolina", id: 9},
 ];
 
 for (let i = 0; i < item.length; i++)

@@ -18,6 +18,13 @@ const item = [
   { src: "./img/curso2.jpg", alt: "foto", class_price: 275.08, name: "Mandolina", id: 9},
 ];
 
+button.addEventListener('click', () => shoppingCart.push(data))
+
+const shoppingCart = [
+
+];
+  
+
 for (let i = 0; i < item.length; i++)
 {
   let div = document.createElement('div');
@@ -45,12 +52,9 @@ for (let i = 0; i < item.length; i++)
   el.appendChild(div); 
 }
 
-button.addEventListener('click', () => shoppingCart.push(data))
 
-const shoppingCart = [
-  
-];
-  
+
+
 
   // <div class="section__commodity">
   //       <img class="foto" src=${item[i].src} alt="foto">

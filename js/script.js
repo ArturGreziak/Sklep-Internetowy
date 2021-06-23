@@ -32,7 +32,7 @@ for (let i = 0; i < item.length; i++)
   img.alt = item[i].alt;
   h3.innerText = item[i].class_price;
   button.classList.add('buton');
-  button.id = '1';
+  button.id = `${item[i].id}`;
   button.innerText = 'KUP';
   h4.classList.add('name');
   h4.innerText = `${item[i].name}`;
@@ -43,7 +43,11 @@ for (let i = 0; i < item.length; i++)
   div.appendChild(h4);
   
   el.appendChild(div); 
-}// <div class="section__commodity">
+}
+  
+
+
+// <div class="section__commodity">
   //       <img class="foto" src=${item[i].src} alt="foto">
   //       <h3 class="price">${item[i].class_price}</h3>
   //       <button class="buton" id=${item[i].id}>KUP</button>

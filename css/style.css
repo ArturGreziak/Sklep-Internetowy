@@ -9,13 +9,6 @@ body {
   text-align: center;
 }
 
-.cart__png {
-  background-image: url('../img/cart.png');
-  background-repeat: no-repeat;
-  color: #fff;
-  margin-left: 1400px;
-}
-
 .cart {
   margin-left: 1500px;
 }

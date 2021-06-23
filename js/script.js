@@ -44,17 +44,13 @@ for (let i = 0; i < item.length; i++)
   
   el.appendChild(div); 
 }
-  
-item.forEach(data => {
-  const {src, alt, foto, name, id} = data 
- 
-  button.addEventListener('click', () => shoppingCart.push(data))
 
-  })
+button.addEventListener('click', () => shoppingCart.push(data))
 
 const shoppingCart = [
   
-]
+];
+  
 
   // <div class="section__commodity">
   //       <img class="foto" src=${item[i].src} alt="foto">

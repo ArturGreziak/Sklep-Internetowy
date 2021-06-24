@@ -22,7 +22,17 @@ const item = [
 
 const shoppingCart = [
   
-];
+]; 
+
+function showShoppingCart() {
+  let price = document.querySelector('section.cart h3');
+  let sum = 0;
+  
+  for (let i = 0; i < shoppingCart.length; i++)
+    sum += shoppingCart[i].class_price;
+    
+  price.innerText = sum.toFixed(2) + ' $';
+}
 
 
   
@@ -42,6 +52,10 @@ for (let i = 0; i < item.length; i++)
   button.classList.add('buton');
   button.id = `${item[i].id}`;
   button.innerText = 'KUP';
+  button.addEventListener('click', () => {
+    shoppingCart.push(item[i]);
+    showShoppingCart();
+  });
   h4.classList.add('name');
   h4.innerText = `${item[i].name}`;
   
@@ -52,8 +66,6 @@ for (let i = 0; i < item.length; i++)
   
   el.appendChild(div); 
 }
-
-
 
 
 
